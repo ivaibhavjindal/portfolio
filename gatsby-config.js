@@ -2,10 +2,10 @@ const config = require('./src/config');
 
 module.exports = {
   siteMetadata: {
-    title: 'Brittany Chiang',
+    title: 'Vaibhav Jindal',
     description:
-      'Brittany Chiang is a software engineer who specializes in building (and occasionally designing) exceptional digital experiences.',
-    siteUrl: 'https://brittanychiang.com', // No trailing slash allowed!
+      'Vaibhav Jindal is an experienced Web Developer skilled in Javascript (MERN), C++ and Python programming language. Strong engineering professional pursuing Bachelor of Engineering (BE) focused in Computer Science from UIET, Panjab University Chandigarh. He has experience in HTML5, CSS3, React, Bootstrap, MaterialUI and various other technologies like C, C++, MongoDB, NodeJs, GraphQL with a strong hold on Data structures and Algorithms.',
+    siteUrl: 'https://ivaibhavjindal.github.io/portfolio', // No trailing slash allowed!
     image: '/og.png', // Path to your image you placed in the 'static' folder
     twitterUsername: '@bchiang7',
   },
@@ -20,8 +20,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: 'BrittanyChiang',
-        short_name: 'BrittanyChiang',
+        name: 'Vaibhav Jindal',
+        short_name: 'Vaibhav',
         start_url: '/',
         background_color: config.colors.darkNavy,
         theme_color: config.colors.navy,
