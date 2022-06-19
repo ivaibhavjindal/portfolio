@@ -1,13 +1,14 @@
 const config = require('./src/config');
 
 module.exports = {
+  pathPrefix: '/portfolio',
   siteMetadata: {
     title: 'Vaibhav Jindal',
     description:
       'Vaibhav Jindal is an experienced Web Developer skilled in Javascript (MERN), C++ and Python programming language. Strong engineering professional pursuing Bachelor of Engineering (BE) focused in Computer Science from UIET, Panjab University Chandigarh. He has experience in HTML5, CSS3, React, Bootstrap, MaterialUI and various other technologies like C, C++, MongoDB, NodeJs, GraphQL with a strong hold on Data structures and Algorithms.',
     siteUrl: 'https://ivaibhavjindal.github.io/portfolio', // No trailing slash allowed!
-    image: '/og.png', // Path to your image you placed in the 'static' folder
-    twitterUsername: '@bchiang7',
+    // image: '/og.png', // Path to your image you placed in the 'static' folder
+    // twitterUsername: '@bchiang7',
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
