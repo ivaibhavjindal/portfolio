@@ -1,4 +1,5 @@
 import React, { useEffect, useRef } from 'react';
+import { Link } from 'gatsby';
 import styled from 'styled-components';
 import { srConfig, email } from '@config';
 import sr from '@utils/sr';
@@ -37,7 +38,13 @@ const StyledContactSection = styled.section`
 
   .email-link {
     ${({ theme }) => theme.mixins.bigButton};
+    margin: 5px;
     margin-top: 50px;
+  }
+
+  .pensieve-link {
+    ${({ theme }) => theme.mixins.bigButton};
+    margin: 5px;
   }
 `;
 
@@ -67,6 +74,10 @@ const Contact = () => {
       <a className="email-link" href={`mailto:${email}`}>
         Say Hello
       </a>
+
+      <Link className="pensieve-link" to="/pensieve">
+        Thoughts
+      </Link>
     </StyledContactSection>
   );
 };
